@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'ProfilePasswordCtrl', ($scope, User, CurrentSession) ->
     $scope.password = {}
     $scope.editing = false

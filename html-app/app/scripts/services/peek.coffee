@@ -1,4 +1,4 @@
 'use strict'
-angular.module("gratefulplaceApp").factory "Peek", ["$http", "$q", ($http, $q) ->
+angular.module("athensApp").factory "Peek", ["$http", "$q", ($http, $q) ->
   one: "two"
 ]

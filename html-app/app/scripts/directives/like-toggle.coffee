@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp').directive 'likeToggle', ->
+angular.module('athensApp').directive 'likeToggle', ->
   restrict: 'EA'
   scope:
     post: '=likeable'

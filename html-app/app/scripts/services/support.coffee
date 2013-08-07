@@ -1,5 +1,5 @@
 'use strict'
-angular.module("gratefulplaceApp").factory "Support", ()->
+angular.module("athensApp").factory "Support", ()->
   handlerNames = []
   supportHandlers =
     clear: ->

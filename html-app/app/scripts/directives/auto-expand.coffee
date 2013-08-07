@@ -1,4 +1,4 @@
-angular.module('gratefulplaceApp').directive 'autoExpand', ->
+angular.module('athensApp').directive 'autoExpand', ->
   restrict: 'C'
   link: (scope, el, attrs)->
     $(el).keyup ->

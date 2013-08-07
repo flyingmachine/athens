@@ -1,4 +1,4 @@
 'use strict';
-angular.module("gratefulplaceApp").factory "Watch", ["$resource", ($resource) ->
+angular.module("athensApp").factory "Watch", ["$resource", ($resource) ->
   $resource '/watches/:id', id: '@id'
 ]

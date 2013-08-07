@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'ProfileAboutCtrl', ($scope, User, CurrentSession) ->
 
     $scope.editing = false

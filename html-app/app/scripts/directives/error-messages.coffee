@@ -1,4 +1,4 @@
-angular.module('gratefulplaceApp').directive 'errorMessages',  ->
+angular.module('athensApp').directive 'errorMessages',  ->
   restrict: 'A'
   replace: true
   scope:

@@ -1,7 +1,7 @@
 describe "Authorize service", ->
   authorize = null
   currentSession = null
-  beforeEach module("gratefulplaceApp")
+  beforeEach module("athensApp")
   beforeEach inject (Authorize, CurrentSession)->
     authorize = Authorize
     currentSession = CurrentSession

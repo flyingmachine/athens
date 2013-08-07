@@ -1,4 +1,4 @@
-angular.module('gratefulplaceApp').run ($rootScope, CurrentSession)->
+angular.module('athensApp').run ($rootScope, CurrentSession)->
   authRoutes = ['/profile']
 
   isAuthRoute = (route)->

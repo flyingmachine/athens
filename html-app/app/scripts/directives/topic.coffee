@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp').directive 'topic', ->
+angular.module('athensApp').directive 'topic', ->
   restrict: 'E'
   scope:
     topic: '=model'

@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'TopicsNewCtrl', ($rootScope, $scope, $routeParams, $resource, Topic, CurrentSession) ->
     $scope.newTopic = {}
 

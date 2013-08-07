@@ -1,4 +1,4 @@
-angular.module('gratefulplaceApp').directive 'toggleFormattingHelp', ->
+angular.module('athensApp').directive 'toggleFormattingHelp', ->
   restrict: 'C'
   link: (scope, el, attrs)->
     helpClass = '.markdown-help'

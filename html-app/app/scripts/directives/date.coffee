@@ -1,4 +1,4 @@
-angular.module('gratefulplaceApp').directive 'date', ->
+angular.module('athensApp').directive 'date', ->
   restrict: 'EA'
   scope:
     date: '=data'

@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'SecondaryNavWatchesCtrl', ($scope, $routeParams, Watch) ->
     $scope.watch = null
     deleted = false

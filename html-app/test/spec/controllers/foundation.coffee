@@ -3,7 +3,7 @@
 describe 'Controller: FoundationCtrl', () ->
 # 
 #   # load the controller's module
-#   beforeEach module 'gratefulplaceApp'
+#   beforeEach module 'athensApp'
 # 
 #   FoundationCtrl = {}
 #   scope = {}

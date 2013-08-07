@@ -1,4 +1,4 @@
 'use strict';
-angular.module("gratefulplaceApp").factory "Like", ["$resource", ($resource) ->
+angular.module("athensApp").factory "Like", ["$resource", ($resource) ->
   service = $resource '/likes/:id', id: '@id'
 ]

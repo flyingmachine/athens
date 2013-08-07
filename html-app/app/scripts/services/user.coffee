@@ -1,5 +1,5 @@
 'use strict';
-angular.module("gratefulplaceApp").factory "User", ["$resource", ($resource) ->
+angular.module("athensApp").factory "User", ["$resource", ($resource) ->
   $resource '/users/:id/:attribute', id: '@id',
     changePassword:
       method: 'POST'

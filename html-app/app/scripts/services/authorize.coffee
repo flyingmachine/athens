@@ -1,5 +1,5 @@
 'use strict'
-angular.module("gratefulplaceApp").factory "Authorize", (CurrentSession)->
+angular.module("athensApp").factory "Authorize", (CurrentSession)->
   moderators = ['flyingmachine']
   canModifyContent: (content)->
     sess = CurrentSession.get()

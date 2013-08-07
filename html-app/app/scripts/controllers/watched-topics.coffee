@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'WatchedTopicsCtrl', ($scope, WatchedTopic, Watch, Utils) ->
     watches = null
 

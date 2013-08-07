@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'WatchedTopicsNavCtrl', ($rootScope, $scope, Watch) ->
     # TODO this is somewhat duplicated in the topics/query controller.
       # Figure out how to only make one ajax call

@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'TopicsShowCtrl', ($rootScope, $scope, $routeParams, Topic, Post, User) ->
     Topic.get id: $routeParams.id, (topic)->
       $rootScope.$broadcast "view.topic", topic

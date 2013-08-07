@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp')
+angular.module('athensApp')
   .controller 'LoginCtrl', ($scope, $http, $location, CurrentSession) ->
     $scope.errors = {}
     

@@ -1,5 +1,5 @@
 'use strict'
-angular.module("gratefulplaceApp").factory "Utils", ()->
+angular.module("athensApp").factory "Utils", ()->
   addWatchCountToTopics: (topics, watches)->
     if topics && watches
       _.each watches, (watch)->

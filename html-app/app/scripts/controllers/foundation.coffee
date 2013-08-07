@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp').controller 'FoundationCtrl', ($scope, $location, User, CurrentSession, Support) ->
+angular.module('athensApp').controller 'FoundationCtrl', ($scope, $location, User, CurrentSession, Support) ->
 
   refreshSession = ->
     $scope.currentSession = CurrentSession.get()

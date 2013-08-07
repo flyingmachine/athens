@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module("gratefulplaceApp").factory "CurrentSession", (loadedSession, $q, $http, $rootScope, User)->
+angular.module("athensApp").factory "CurrentSession", (loadedSession, $q, $http, $rootScope, User)->
   currentSession =
     loggedIn: -> @id
   loggedOut = !loadedSession

@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('gratefulplaceApp').directive 'author', ->
+angular.module('athensApp').directive 'author', ->
   restrict: 'E'
   scope:
     author: '=model'

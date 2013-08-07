@@ -1,4 +1,4 @@
-(defproject gratefulplace "0.1.0-SNAPSHOT"
+(defproject athens "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "The MIT License"
@@ -31,4 +31,4 @@
   
   :profiles {:dev {:dependencies [[midje "1.5.0"]]}}
   
-  :main gratefulplace.app)
+  :main athens.app)
