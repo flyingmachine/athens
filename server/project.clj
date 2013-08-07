@@ -30,5 +30,9 @@
   :resource-paths ["resources"]
   
   :profiles {:dev {:dependencies [[midje "1.5.0"]]}}
+
+  :mirrors {"central" {:name "Internal nexus"
+                       :url "http://nexus.intranet.mckinsey.com/content/groups/public/"
+                       :repo-manager true}}
   
   :main athens.app)

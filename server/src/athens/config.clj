@@ -7,8 +7,8 @@
    {:html-paths ["html-app"
                  "../html-app/app"
                  "../html-app/.tmp"]
-    :datomic {:db-uri "datomic:free://localhost:4334/gp2"
-              :test-uri "datomic:mem://gp2"}
+    :datomic {:db-uri "datomic:free://localhost:4334/athens"
+              :test-uri "datomic:mem://athens"}
     :moderator-names ["flyingmachine"]
     :gp-email {:from-address "notifications@athens.com"
                :from-name "Grateful Place Notifications"}}
