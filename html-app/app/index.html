@@ -29,8 +29,10 @@
         <div class="title">
           AppDev Community Forum
         </div>
-        <div class="search">
-          <input type="search" placeholder="search topics">
+        <div class="search" ng-controller="SearchCtrl">
+          <form ng-submit="search()">
+            <input type="search" placeholder="search topics" ng-model="q">
+          </form>
         </div>
       </div>
     </div>
@@ -194,7 +196,9 @@
     <script src="scripts/controllers/profile/about.js"></script>
     <script src="scripts/controllers/profile/email.js"></script>
     <script src="scripts/controllers/profile/password.js"></script>
+    <script src="scripts/controllers/posts/query.js"></script>
     <script src="scripts/controllers/register.js"></script>
+    <script src="scripts/controllers/search.js"></script>
     <script src="scripts/controllers/secondary-nav/watches.js"></script>
     <script src="scripts/controllers/topics/new.js"></script>
     <script src="scripts/controllers/topics/query.js"></script>

@@ -9,6 +9,9 @@ angular.module('athensApp', @App.modules)
       .when '/topics/:id',
         templateUrl: 'views/topics/show.html',
         controller: 'TopicsShowCtrl'
+      .when '/posts',
+        templateUrl: 'views/posts/index.html',
+        controller: 'PostsQueryCtrl'
       .when '/login',
         templateUrl: 'views/login.html'
       .when '/profile/about',

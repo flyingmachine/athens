@@ -18,6 +18,28 @@
    ;; :exclude [:content :created-at :topic-id]
    })
 
+(defn search
+  [params]
+  (map (comp record first) (d/q '[:find ?post
+                                  :in $ ?search
+                                  :where
+                                  [(fulltext $ :post/content ?search) [[?post ?content]]]]
+                                (db/db)
+                                (:q params))))
+
+(defn all
+  []
+  (reverse-by :created-at
+              (map record
+                   (db/all :post/content))))
+
+(defresource query [params]
+  :available-media-types ["application/json"]
+  :handle-ok (fn [_]
+               (if (not-empty (:q params))
+                 (search params)
+                 (all))))
+
 (defresource update! [params auth]
   :allowed-methods [:put :post]
   :available-media-types ["application/json"]

@@ -54,6 +54,7 @@
   (authroute GET "/watched-topics" watched-topics/query)
   
   ;; Posts
+  (route GET "/posts" posts/query)
   (authroute POST "/posts" posts/create!)
   (authroute PUT  "/posts/:id" posts/update!)
   (authroute POST "/posts/:id" posts/update!)
