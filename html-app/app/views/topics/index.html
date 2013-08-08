@@ -1,4 +1,5 @@
 <div id="topics">
+  <topic model="topic" peek="peek" ng-repeat="topic in topics"></topic>
   <div id="new-topic" ng-controller="TopicsNewCtrl" ng-show="newTopicForm.show">
     <h3>New Topic</h3>
     <form ng-submit="submitNewTopic()">
@@ -15,6 +16,7 @@
         <textarea
            name="new-topic-content"
            id="new-topic-content"
+           ui:pagedown
            ng-model="newTopic.content"
            required></textarea>
         <div class="error" error-messages="newTopicErrors.content"></div>
@@ -28,5 +30,4 @@
       </div>
     </form>
   </div>
-  <topic model="topic" peek="peek" ng-repeat="topic in topics"></topic>
 </div>

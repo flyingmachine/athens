@@ -14,3 +14,23 @@
   @include trailer(.5, 27px);
   @include leader(0);
 }
+
+#new-topic {
+  @include chunk;
+  @include padding-trailer;
+  width: 59em;
+  margin-left: -15em;
+  border-radius: 2px 2px 0 0;
+  border-bottom: rhythm(.5) solid $medium-green;
+  border-top: rhythm(.5) solid $medium-green;
+  textarea {
+    height: 6 * $base-line-height;
+  }
+  h3 {
+    margin-top: 0;
+  }
+
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+}
